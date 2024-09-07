@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "appteste1",
-    "slug": "appteste1",
+    "name": "contador",
+    "slug": "contador",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.erickregis.contador"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5256b8af-7047-4dea-b5ea-45cc61683158"
+      }
     }
   }
 }
